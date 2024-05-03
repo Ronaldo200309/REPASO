@@ -1,0 +1,119 @@
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+  }
+  img {
+    margin: auto;
+    align-items: end;
+    width: 200px;
+  }
+  header {
+      background-color: #dee200;
+      color: #ffffff;
+      padding: 20px;
+      width:98%; 
+      margin-right: 10%;
+      height:350px;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+  }
+  
+  .brand h1 { 
+    margin:0%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .brand p {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  nav ul li{
+      list-style-type: none;
+      margin: 0%;
+      padding:0%;
+      display: inline;
+      margin-right:auto;
+      color: #ffffff;
+      text-decoration: underline;
+      text-align: left;
+      text-transform: uppercase;
+      font-size: larger;
+      width: 100px;
+      justify-content: space-between;
+  }
+  
+  nav ul li a {
+      color: #ffffff;
+      text-decoration: underline;
+      width: 100px;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  section {
+      margin-bottom: 30px;
+  }
+  
+  footer {
+      background-color: #cad800;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display:flex
+  }
+  
+  footer a {
+      color: #fff;
+      text-decoration: none;
+  }
+  #Inicio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+  #servicios {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+  }
+  
+  #proyectos {
+      background-color: #e6e6e6;
+      padding: 20px;
+      border-radius: 5px;
+  }
+  
+  #flota {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+  }
+
+  #acerca-de {
+      background-color: #e6e6e6;
+      padding: 20px;
+      border-radius: 5px;
+  }
+  
+  .galeria-proyectos,
+  .galeria-materiales {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 10px;
+  }
+  
+  .galeria-proyectos img,
+  .galeria-materiales img {
+      max-width: 100%;
+      border-radius: 5px;
+  }
